@@ -1,5 +1,140 @@
 body {
   margin: 0;
   padding: 0;
-  font-family: sans-serif;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+  letter-spacing: 1px;
+  text-transform: capitalize;
+
 }
+
+.hide {
+  display: none;
+}
+
+.formCont {
+  display: flex;
+  flex-direction: column;
+  margin-left : 5%;
+  margin-right: 5%;
+  background-color: lightgrey;
+}
+
+.butCont {
+  display: flex;
+  justify-content: space-around;
+}
+
+button {
+  display: block;
+  width: 150px;
+  appearance: none;
+  /*border-radius: 5px;*/
+  background-color: grey;
+  color: lightgrey;
+  border: none;
+  font-size: 16px;
+  font-weight: 300;
+  letter-spacing: 1px;
+  height: 40px;
+  margin-top: 30px;
+  margin-bottom: 10px;
+}
+
+button:hover {
+  background-color: darkgray;
+}
+
+input, select{
+
+  box-sizing: border-box;
+  padding: 0;
+  width: 500px;
+  height: 50px;
+  margin: 5%;
+  justify-content: space-around;
+  font-size: 1.5rem;
+}
+
+label {
+  display: flex;
+  flex-direction: column;
+  padding-left: 2%;
+  justify-content: center;
+  align-self: center;
+  line-height: 100%;
+  font-size: 2rem;
+}
+
+.label {
+  display: flex;
+  align-items: center;
+  font-size: 1.2rem;
+}
+
+ul {
+  list-style: none;
+}
+
+li {
+  display: flex;
+  flex-direction: column;
+  border-bottom: solid 2px white;
+  margin-top: 20px;
+  justify-content: center;
+}
+
+.quest {
+  display: flex;
+  align-items: center;
+  font-size: 1.5rem;
+}
+
+.formConten {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.butSend {
+  width: 50%;
+  margin-bottom: 100px;
+  margin-top: 100px;
+}
+
+.butDel {
+  position: relative;
+  left: -20px
+}
+
+li .label {
+  position: relative;
+  left: -20px
+}
+
+li .quest {
+  position: relative;
+  left: -20px
+}
+
+li input {
+  position: relative;
+  left: -20px
+}
+
+.butStart {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.butStart>button {
+  width: 500px;
+  height: 100px;
+  align-self: center;
+  font-size: 2em;
+  letter-spacing: 2px;
+  position: relative;
+  top: 100px;
+}
+

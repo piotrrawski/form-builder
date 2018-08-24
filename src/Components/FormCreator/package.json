@@ -1,0 +1,6 @@
+{
+  "name" : "FormCreator",
+  "version": "0.0.0",
+  "private": true,
+  "main": "FormCreator.jsx"
+}
